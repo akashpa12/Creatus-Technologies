@@ -1,0 +1,39 @@
+.form-container {
+  background: white;
+  padding: 30px;
+  border-radius: 16px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+  position: sticky;
+  top: 100px;
+}
+
+.form-container h2 {
+  margin-bottom: 20px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+
+input,
+textarea {
+  width: 100%;
+  padding: 14px;
+  border: 1px solid #cbd5e1;
+  border-radius: 10px;
+}
+
+form button {
+  background: #f97316;
+  color: white;
+  border: none;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+form button:hover{
+    background-color: #cd5805;
+}

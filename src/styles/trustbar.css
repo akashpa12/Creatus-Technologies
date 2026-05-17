@@ -1,0 +1,9 @@
+.trustbar {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  padding: 25px;
+  background: #e2e8f0;
+  flex-wrap: wrap;
+  font-weight: 600;
+}
